@@ -48,7 +48,7 @@ scene.add(pointLight, ambientLight);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('../img/space_green.jpg');
+const spaceTexture = new THREE.TextureLoader().load('../img/space-green.jpg');
 scene.background = spaceTexture;
 
 //Stars
@@ -67,7 +67,7 @@ Array(200).fill().forEach(addStar);
 
 // Avatar
 
-const michaelTexture = new THREE.TextureLoader().load('../img/michael_avatar.jpg');
+const michaelTexture = new THREE.TextureLoader().load('../img/michael-avatar.jpg');
 const michael = new THREE.Mesh(
   new THREE.BoxGeometry(3,3,3),
   new THREE.MeshBasicMaterial( {map: michaelTexture} )
