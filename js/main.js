@@ -76,7 +76,7 @@ scene.add(michael);
 
 // Earth
 
-const earthTexture = new THREE.TextureLoader().load('../img/earth_texture.jpg');
+const earthTexture = new THREE.TextureLoader().load('../img/earth-texture.jpeg');
 const normalTexture = new THREE.TextureLoader().load('../img/normal_texture.jpg');
 const earth = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
